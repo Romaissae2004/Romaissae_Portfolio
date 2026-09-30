@@ -1,0 +1,96 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "fr": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "N'hésitez pas à",
+                "title_long": "Me {{Contacter}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "QL4i7aC5ZDu3-c4Mn",
+                "email_js_service_id": "service_ohxri8f",
+                "email_js_template_id": "template_f4n6peb"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address : {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "fr": {
+                    "contact_thank_you_title": "{{Merci}} pour votre message !",
+                    "contact_thank_you_body": "Votre message a bien été reçu. Je vous contacterai prochainement. Merci pour votre temps et au plaisir d'échanger avec vous !",
+                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail : {{$email}}",
+                    "title": "Envoyez-moi un {{message}}"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "fr": {"title": "Ou si vous {{préférez}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+212 605611701",
+                    "link": {"href": "tel:+212605611701", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "fr": {"title": "Téléphone"}
+                    }
+                },
+                {
+                    "id":2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "romaissae.merzak.23@ump.ac.ma",
+                    "link": {"href": "https://mail.google.com/mail/?view=cm&fs=1&to=romaissae.merzak.23@ump.ac.ma", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "fr": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@merzakromaissae",
+                    "link": {"href": "https://www.linkedin.com/in/merzak-roma%C3%AFssae-5b56b2342/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "fr": {"title": "LinkedIn"}
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Merzak Romaissae",
+
+    "profilePictureUrl": "images/pictures/photo-{theme}.png",
+    "resumePdfUrl": "pdf/cv.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Merzak Romaissae",
+            "localized_name_stylized": "[[Merzak {{Romaissae}}]]",
+            "status_message_available_for_freelance": "Available for opportunities!",
+            "roles": [
+                "Software Engineer",
+                "Full-Stack Developer",
+                "AI Enthusiast",
+                "Backend Developer",
+                "Frontend Developer"
+            ]
+        },
+        "fr": {
+            "localized_name": "Merzak Romaissae",
+            "localized_name_stylized": "[[Merzak {{Romaissae}}]]",
+            "status_message_available_for_freelance": "Disponible pour de nouvelles opportunités !",
+            "roles": [
+                "Ingénieure Logiciel",
+                "Développeuse Full-Stack",
+                "Développeuse Backend",
+                "Développeuse Frontend",
+                "Passionnée d'Intelligence Artificielle"
+            ]
+        }
+    }
+}

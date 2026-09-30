@@ -1,0 +1,316 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionnel}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-building-columns",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Web}} Developer — Internship",
+                            "province": "Oujda",
+                            "country": "Morocco",
+                            "institution": "ENCGO",
+                            "text": "Developed a web application for [[computer lab management and incident tracking]], following a structured MVC architecture.",
+                            "list": [
+                                "Implemented user, room, equipment, and incident management",
+                                "Designed and managed the MySQL database and developed frontend and backend features",
+                                "Applied the MVC architecture and used Git for version control"
+                            ],
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "PHP",
+                                "MySQL",
+                                "Git",
+                                "MVC"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeuse {{Web}} — Stagiaire",
+                            "province": "Oujda",
+                            "country": "Maroc",
+                            "institution": "ENCGO",
+                            "text": "Développement d'une application web de [[gestion des salles informatiques et de suivi des incidents]], basée sur une architecture MVC structurée.",
+                            "list": [
+                                "Mise en place de la gestion des utilisateurs, salles, équipements et incidents",
+                                "Conception et gestion de la base de données MySQL et développement des fonctionnalités frontend et backend",
+                                "Mise en œuvre de l'architecture MVC et utilisation de Git pour le contrôle de version"
+                            ],
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "PHP",
+                                "MySQL",
+                                "Git",
+                                "MVC"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2026,
+                        "month": 4
+                    },
+                    "dateEnd": {
+                        "year": 2026,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Developer — PFA Project",
+                            "province": "Oujda",
+                            "country": "Morocco",
+                            "institution": "ENSAO",
+                            "text": "Designed and developed a [[microservices-based collaborative delivery platform]] with secure JWT authentication, RBAC, and real-time driver tracking using WebSocket as part of a team following Agile Scrum practices.",
+                            "list": [
+                                "Developed modules for clients, merchants, delivery drivers, and administrators",
+                                "Implemented store, product, cart, order, delivery, and notification management",
+                                "Built secure authentication and authorization with Spring Security, JWT, refresh tokens, RBAC, and BCrypt",
+                                "Implemented REST APIs and PostgreSQL data management",
+                                "Added real-time driver tracking using WebSocket and interactive map geolocation",
+                                "Collaborated in a team using Git and Agile Scrum practices"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "React",
+                                "JWT",
+                                "REST API",
+                                "PostgreSQL",
+                                "WebSocket",
+                                "Microservices",
+                                "Jira",
+                                "Tailwind CSS",
+                                "BCrypt",
+                                "Git"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeuse {{Full-Stack}} — Projet PFA",
+                            "province": "Oujda",
+                            "country": "Maroc",
+                            "institution": "ENSAO",
+                            "text": "Conception et développement en équipe d'une [[plateforme collaborative de livraison basée sur une architecture microservices]], avec authentification JWT sécurisée, gestion des rôles et suivi des livreurs en temps réel via WebSocket, selon la méthodologie Agile Scrum.",
+                            "list": [
+                                "Développement des modules clients, marchands, livreurs et administrateurs",
+                                "Gestion des boutiques, produits, paniers, commandes, livraisons et notifications",
+                                "Mise en place de l'authentification et de l'autorisation avec Spring Security, JWT, refresh tokens, RBAC et BCrypt",
+                                "Développement d'API REST et gestion des données avec PostgreSQL",
+                                "Implémentation du suivi des livreurs en temps réel avec WebSocket et géolocalisation sur carte interactive",
+                                "Travail en équipe avec Git selon la méthodologie Agile Scrum"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "React",
+                                "JWT",
+                                "REST API",
+                                "PostgreSQL",
+                                "WebSocket",
+                                "Microservices",
+                                "Jira",
+                                "Tailwind CSS",
+                                "BCrypt",
+                                "Git"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2026,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Developer — Internship",
+                            "province": "Oujda",
+                            "country": "Morocco",
+                            "institution": "FCPO",
+                            "text": "Contributed to a full-stack platform for managing student applications for studying abroad, [[digitizing the complete workflow]] between the agency, students, and international partners.",
+                            "list": [
+                                "Implemented authentication, role-based access control (RBAC), and permission management with JWT",
+                                "Developed REST APIs with API Platform for student file creation, tracking, document upload, and preview",
+                                "Implemented a complete workflow for processing files from creation to acceptance or rejection",
+                                "Added comments, notifications, and a complete audit trail to track user actions",
+                                "Developed payment tracking and automatic PDF receipt generation for students and partners"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "API Platform",
+                                "Doctrine ORM",
+                                "React",
+                                "TypeScript",
+                                "PostgreSQL",
+                                "JWT",
+                                "REST API",
+                                "Axios",
+                                "Git",
+                                "Jira",
+                                "Material UI"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeuse {{Full-Stack}} — Stagiaire",
+                            "province": "Oujda",
+                            "country": "Maroc",
+                            "institution": "FCPO",
+                            "text": "Contribution au développement d'une plateforme full-stack de gestion des dossiers d'étudiants souhaitant poursuivre leurs études à l'étranger, [[digitalisant l'ensemble du workflow]] entre l'agence, les étudiants et les partenaires internationaux.",
+                            "list": [
+                                "Mise en place de l'authentification, de la gestion des rôles (RBAC) et des permissions avec JWT",
+                                "Développement d'API REST avec API Platform pour la création, le suivi, le dépôt et la prévisualisation des documents",
+                                "Implémentation du workflow complet de traitement des dossiers, de la création jusqu'à l'acceptation ou au refus",
+                                "Ajout des commentaires, notifications et d'un historique complet des actions pour assurer la traçabilité",
+                                "Développement du suivi des paiements et génération automatique de reçus PDF pour les étudiants et partenaires"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "API Platform",
+                                "Doctrine ORM",
+                                "React",
+                                "TypeScript",
+                                "PostgreSQL",
+                                "JWT",
+                                "REST API",
+                                "Axios",
+                                "Git",
+                                "Jira",
+                                "Material UI"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2026,
+                        "month": 7
+                    },
+                    "dateEnd": null,
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Developer — Freelance",
+                            "province": "France",
+                            "country": "",
+                            "institution": "Rezileo",
+                            "text": "Participating in the development and evolution of a professional [[contract cancellation management platform]] (insurance, telecom, energy and subscriptions), in collaboration with the founder to meet the needs of his business and clients in France.",
+                            "list": [
+                                "Developed and integrated various application components: public showcase, internal console, API and async worker",
+                                "Used generative AI tools to support development, exploration of solutions, debugging and code improvement",
+                                "Migrated the application from Replit to a Scaleway cloud server and set up the production environment",
+                                "Configured production services: PostgreSQL, Redis, Docker, Nginx as reverse proxy and SSL/HTTPS certificates",
+                                "Verified multi-tenant architecture and data isolation via PostgreSQL Row-Level Security (RLS) and audit logs",
+                                "Configured domain and DNS records via GoDaddy, with secure access to rezileo.fr and app.rezileo.fr",
+                                "Ongoing development, fixes, improvements and preparation for external integrations with Stripe, YouSign, Twilio, Brevo and AR24/Maileva"
+                            ],
+                            "tags": [
+                                "TypeScript",
+                                "Next.js",
+                                "Hono",
+                                "PostgreSQL",
+                                "Redis",
+                                "Docker",
+                                "Nginx",
+                                "Scaleway",
+                                "GitHub",
+                                "AI"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeuse {{Full-Stack}} — Freelance",
+                            "province": "France",
+                            "country": "",
+                            "institution": "Rezileo",
+                            "text": "Participation au développement et à l'évolution d'une [[plateforme web professionnelle de gestion des résiliations de contrats]] (assurance, télécom, énergie et abonnements), en collaboration avec le fondateur pour répondre aux besoins de son activité et de ses clients en France.",
+                            "list": [
+                                "Développement et intégration des différents composants : vitrine publique, console interne, API et worker pour les traitements asynchrones",
+                                "Utilisation d'outils d'IA générative comme support au développement, à l'exploration de solutions, au débogage et à l'amélioration du code",
+                                "Migration de l'application depuis Replit vers un serveur cloud Scaleway et mise en place de l'environnement de production",
+                                "Configuration et gestion des services de production : PostgreSQL, Redis, Docker, Nginx comme reverse proxy et certificats SSL/HTTPS",
+                                "Vérification de l'architecture multi-tenant et de l'isolation des données via PostgreSQL Row-Level Security (RLS) et journaux d'audit",
+                                "Configuration du domaine et des enregistrements DNS via GoDaddy avec accès sécurisés rezileo.fr et app.rezileo.fr",
+                                "Poursuite du développement, corrections et améliorations, ainsi que préparation des intégrations avec Stripe, YouSign, Twilio, Brevo et AR24/Maileva"
+                            ],
+                            "tags": [
+                                "TypeScript",
+                                "Next.js",
+                                "Hono",
+                                "PostgreSQL",
+                                "Redis",
+                                "Docker",
+                                "Nginx",
+                                "Scaleway",
+                                "GitHub",
+                                "IA"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

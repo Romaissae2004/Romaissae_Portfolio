@@ -1,0 +1,635 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Applications",
+                    "category_web": "Web"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_apps",
+                    "category_web"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-eventticket.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/event-ticket-app.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Event Ticket Platform",
+                            "text": "A full-stack event ticketing platform designed to simplify the [[complete event lifecycle]], from event creation and ticket sales to secure entry validation using QR codes. The platform combines a Spring Boot backend with a React + Vite frontend and Keycloak-based identity management.",
+                            "list": [
+                                "Developed event creation and management features for organizers",
+                                "Implemented ticket purchasing and attendee management",
+                                "Integrated QR code generation and scanning for secure ticket validation at entry",
+                                "Implemented authentication and role-based access control with Keycloak",
+                                "Designed separate workflows for organizers, attendees, staff, and administrators",
+                                "Built REST APIs with Spring Boot for communication between frontend and backend",
+                                "Developed the frontend with React and Vite",
+                                "Currently under development and not publicly available on GitHub"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "Keycloak",
+                                "OAuth2",
+                                "React",
+                                "Vite",
+                                "TypeScript",
+                                "REST API",
+                                "PostgreSQL",
+                                "QR Code"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Event Ticket Platform",
+                            "text": "Une plateforme full-stack de billetterie événementielle conçue pour gérer [[l'ensemble du cycle de vie d'un événement]], de sa création et la vente des billets jusqu'à la validation sécurisée des entrées via QR codes. La plateforme combine un backend Spring Boot, un frontend React + Vite et une gestion des identités basée sur Keycloak.",
+                            "list": [
+                                "Développement des fonctionnalités de création et de gestion des événements pour les organisateurs",
+                                "Mise en place de l'achat des billets et de la gestion des participants",
+                                "Intégration de la génération et du scan des QR codes pour la validation sécurisée des billets",
+                                "Mise en place de l'authentification et de la gestion des rôles avec Keycloak",
+                                "Développement de workflows distincts pour les organisateurs, participants, membres du personnel et administrateurs",
+                                "Développement d'API REST avec Spring Boot pour la communication entre le frontend et le backend",
+                                "Développement de l'interface frontend avec React et Vite",
+                                "Projet actuellement en cours de développement et non disponible publiquement sur GitHub"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "Keycloak",
+                                "OAuth2",
+                                "React",
+                                "Vite",
+                                "TypeScript",
+                                "REST API",
+                                "PostgreSQL",
+                                "QR Code"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-wasilatti.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/Wasilatti.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Wasilatti — Collaborative Delivery Platform",
+                            "text": "A [[microservices-based collaborative delivery platform]] designed to connect clients, merchants, and delivery drivers. The system combines secure authentication, order management, delivery workflows, and real-time driver tracking through WebSocket and interactive map geolocation.",
+                            "list": [
+                                "Developed modules for clients, merchants, delivery drivers, and administrators",
+                                "Implemented store, product, cart, order, delivery, and notification management",
+                                "Designed REST APIs using Spring Boot",
+                                "Implemented secure authentication and authorization with Spring Security and JWT",
+                                "Added refresh-token mechanisms and role-based access control (RBAC)",
+                                "Applied BCrypt for secure password hashing",
+                                "Implemented real-time driver tracking using WebSocket",
+                                "Integrated interactive map geolocation for delivery tracking",
+                                "Managed application data with PostgreSQL",
+                                "Collaborated within a team using Git, Jira, and Agile Scrum"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "React",
+                                "JWT",
+                                "REST API",
+                                "PostgreSQL",
+                                "WebSocket",
+                                "Microservices",
+                                "RBAC",
+                                "BCrypt",
+                                "Jira",
+                                "Git",
+                                "Tailwind CSS"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Wasilatti — Plateforme collaborative de livraison",
+                            "text": "Une [[plateforme collaborative de livraison basée sur une architecture microservices]] permettant de connecter clients, marchands et livreurs. Le système combine authentification sécurisée, gestion des commandes, workflows de livraison et suivi des livreurs en temps réel via WebSocket et géolocalisation sur carte interactive.",
+                            "list": [
+                                "Développement des modules clients, marchands, livreurs et administrateurs",
+                                "Gestion des boutiques, produits, paniers, commandes, livraisons et notifications",
+                                "Conception et développement d'API REST avec Spring Boot",
+                                "Mise en place de l'authentification et de l'autorisation avec Spring Security et JWT",
+                                "Implémentation des refresh tokens et de la gestion des rôles RBAC",
+                                "Sécurisation des mots de passe avec BCrypt",
+                                "Mise en place du suivi des livreurs en temps réel avec WebSocket",
+                                "Intégration de la géolocalisation sur carte interactive",
+                                "Gestion des données avec PostgreSQL",
+                                "Travail en équipe avec Git, Jira et la méthodologie Agile Scrum"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Spring Security",
+                                "React",
+                                "JWT",
+                                "REST API",
+                                "PostgreSQL",
+                                "WebSocket",
+                                "Microservices",
+                                "RBAC",
+                                "BCrypt",
+                                "Jira",
+                                "Git",
+                                "Tailwind CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-fcpo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/Eduabroad.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FCPO — Study Abroad File Platform",
+                            "text": "A full-stack platform developed to [[digitize and manage the complete student application lifecycle]] for studying abroad, connecting the agency, students, and international partners through a centralized workflow.",
+                            "list": [
+                                "Implemented authentication, role-based access control (RBAC), and permission management using JWT",
+                                "Developed REST APIs with API Platform",
+                                "Implemented student file creation, tracking, and status management",
+                                "Added document upload and preview functionality",
+                                "Developed a complete workflow from file creation to acceptance or rejection",
+                                "Implemented comments, notifications, and a complete audit trail",
+                                "Added payment tracking for students and international partners",
+                                "Implemented automatic PDF receipt generation",
+                                "Developed the frontend using React and TypeScript",
+                                "Managed persistent data with PostgreSQL and Doctrine ORM",
+                                "Used Axios for frontend-backend API communication",
+                                "Collaborated using Git and Jira"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "API Platform",
+                                "Doctrine ORM",
+                                "React",
+                                "TypeScript",
+                                "PostgreSQL",
+                                "JWT",
+                                "REST API",
+                                "Axios",
+                                "Material UI",
+                                "Git",
+                                "Jira"
+                            ]
+                        },
+                        "fr": {
+                            "title": "FCPO — Plateforme de gestion des dossiers d'études à l'étranger",
+                            "text": "Une plateforme full-stack développée pour [[digitaliser et gérer l'ensemble du cycle de vie des dossiers étudiants]] souhaitant poursuivre leurs études à l'étranger, en centralisant les échanges entre l'agence, les étudiants et les partenaires internationaux.",
+                            "list": [
+                                "Mise en place de l'authentification, de la gestion des rôles RBAC et des permissions avec JWT",
+                                "Développement d'API REST avec API Platform",
+                                "Développement de la création, du suivi et de la gestion des statuts des dossiers étudiants",
+                                "Mise en place du dépôt et de la prévisualisation des documents",
+                                "Implémentation du workflow complet, de la création du dossier jusqu'à l'acceptation ou au refus",
+                                "Ajout des commentaires, notifications et d'un historique complet des actions",
+                                "Mise en place du suivi des paiements des étudiants et des partenaires internationaux",
+                                "Génération automatique des reçus au format PDF",
+                                "Développement du frontend avec React et TypeScript",
+                                "Gestion des données avec PostgreSQL et Doctrine ORM",
+                                "Communication frontend-backend avec Axios",
+                                "Travail collaboratif avec Git et Jira"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "API Platform",
+                                "Doctrine ORM",
+                                "React",
+                                "TypeScript",
+                                "PostgreSQL",
+                                "JWT",
+                                "REST API",
+                                "Axios",
+                                "Material UI",
+                                "Git",
+                                "Jira"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-encgo-{theme}.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "hhttps://github.com/Romaissae2004/Suivi_Salle.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ENCGO — Computer Lab Management",
+                            "text": "A web application developed during my internship at ENCGO to [[manage computer laboratories, equipment, users, and incidents]] through a structured MVC architecture.",
+                            "list": [
+                                "Implemented user management",
+                                "Developed computer room management features",
+                                "Added equipment management and monitoring",
+                                "Implemented incident reporting and tracking",
+                                "Designed and managed the MySQL relational database",
+                                "Developed frontend interfaces using HTML, CSS, and JavaScript",
+                                "Implemented backend functionality with PHP",
+                                "Applied the MVC architecture",
+                                "Used Git for version control"
+                            ],
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "PHP",
+                                "MySQL",
+                                "MVC",
+                                "Git"
+                            ]
+                        },
+                        "fr": {
+                            "title": "ENCGO — Gestion des salles informatiques",
+                            "text": "Une application web développée durant mon stage à l'ENCGO pour [[gérer les salles informatiques, les équipements, les utilisateurs et les incidents]] à travers une architecture MVC structurée.",
+                            "list": [
+                                "Mise en place de la gestion des utilisateurs",
+                                "Développement des fonctionnalités de gestion des salles informatiques",
+                                "Ajout de la gestion et du suivi des équipements",
+                                "Mise en place du signalement et du suivi des incidents",
+                                "Conception et gestion de la base de données relationnelle MySQL",
+                                "Développement des interfaces frontend avec HTML, CSS et JavaScript",
+                                "Développement des fonctionnalités backend avec PHP",
+                                "Application de l'architecture MVC",
+                                "Utilisation de Git pour le contrôle de version"
+                            ],
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "PHP",
+                                "MySQL",
+                                "MVC",
+                                "Git"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-trackmood.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/TrackMood.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TrackMood",
+                            "text": "A mood-tracking web application built with [[Symfony and Doctrine ORM]], designed to help users record and analyze their moods through an interactive dashboard and personalized recommendations.",
+                            "list": [
+                                "Implemented user authentication and account management",
+                                "Developed role-based access control",
+                                "Implemented mood tracking and history management",
+                                "Designed a personalized recommendation system",
+                                "Built an interactive dashboard with Chart.js",
+                                "Managed application entities using Doctrine ORM",
+                                "Applied the MVC architecture with Symfony",
+                                "Designed and managed the MySQL database"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "PHP",
+                                "Doctrine ORM",
+                                "MySQL",
+                                "Twig",
+                                "Chart.js",
+                                "MVC",
+                                "Authentication",
+                                "RBAC"
+                            ]
+                        },
+                        "fr": {
+                            "title": "TrackMood",
+                            "text": "Une application web de suivi d'humeur développée avec [[Symfony et Doctrine ORM]], permettant aux utilisateurs d'enregistrer et d'analyser leur humeur grâce à un dashboard interactif et à des recommandations personnalisées.",
+                            "list": [
+                                "Mise en place de l'authentification et de la gestion des comptes utilisateurs",
+                                "Implémentation de la gestion des rôles et des accès",
+                                "Développement du suivi et de l'historique des humeurs",
+                                "Conception d'un système de recommandation personnalisé",
+                                "Création d'un dashboard interactif avec Chart.js",
+                                "Gestion des entités avec Doctrine ORM",
+                                "Application de l'architecture MVC avec Symfony",
+                                "Conception et gestion de la base de données MySQL"
+                            ],
+                            "tags": [
+                                "Symfony",
+                                "PHP",
+                                "Doctrine ORM",
+                                "MySQL",
+                                "Twig",
+                                "Chart.js",
+                                "MVC",
+                                "Authentication",
+                                "RBAC"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/project-logo-oujdastadium-{theme}.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/OujdaStadium-Booking.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "9:16"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "OujdaStadium Booking",
+                            "text": "A mobile application developed with [[Android, Java, and Firebase]] for booking sports fields, providing real-time availability and role-based access for users, managers, and administrators.",
+                            "list": [
+                                "Developed sports field booking functionality",
+                                "Implemented real-time availability using Firebase Realtime Database",
+                                "Implemented role-based access for users, managers, and administrators",
+                                "Developed an administration interface for managing bookings and fields",
+                                "Synchronized booking data in real time with Firebase",
+                                "Designed Android interfaces using Java"
+                            ],
+                            "tags": [
+                                "Android",
+                                "Java",
+                                "Android Studio",
+                                "Firebase",
+                                "Firebase Realtime Database",
+                                "Real-time",
+                                "RBAC"
+                            ]
+                        },
+                        "fr": {
+                            "title": "OujdaStadium Booking",
+                            "text": "Une application mobile développée avec [[Android, Java et Firebase]] pour la réservation de terrains sportifs, offrant la consultation des disponibilités en temps réel et une gestion des accès selon les rôles des utilisateurs, gérants et administrateurs.",
+                            "list": [
+                                "Développement de la fonctionnalité de réservation des terrains sportifs",
+                                "Mise en place des disponibilités en temps réel avec Firebase Realtime Database",
+                                "Gestion des rôles utilisateurs, gérants et administrateurs",
+                                "Développement d'une interface d'administration pour gérer les réservations et les terrains",
+                                "Synchronisation des données de réservation en temps réel avec Firebase",
+                                "Conception des interfaces Android avec Java"
+                            ],
+                            "tags": [
+                                "Android",
+                                "Java",
+                                "Android Studio",
+                                "Firebase",
+                                "Firebase Realtime Database",
+                                "Real-time",
+                                "RBAC"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/project-logo-pillcheck.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Romaissae2004/PillCheck.git",
+                                "tooltip": "GitHub",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PillCheck",
+                            "text": "A desktop application developed with [[JavaFX and MySQL]] to manage and consult medication-related information through a simple and user-friendly interface.",
+                            "list": [
+                                "Developed a desktop application using Java and JavaFX",
+                                "Designed a user-friendly graphical interface",
+                                "Implemented medication information management",
+                                "Integrated a MySQL relational database",
+                                "Implemented CRUD operations for data management",
+                                "Connected the JavaFX interface with the database",
+                                "Managed application data through a structured database"
+                            ],
+                            "tags": [
+                                "Java",
+                                "JavaFX",
+                                "MySQL",
+                                "Desktop Application",
+                                "CRUD",
+                                "Database"
+                            ]
+                        },
+                        "fr": {
+                            "title": "PillCheck",
+                            "text": "Une application desktop développée avec [[JavaFX et MySQL]] permettant de gérer et consulter des informations liées aux médicaments à travers une interface simple et intuitive.",
+                            "list": [
+                                "Développement d'une application desktop avec Java et JavaFX",
+                                "Conception d'une interface graphique simple et intuitive",
+                                "Gestion des informations liées aux médicaments",
+                                "Intégration d'une base de données relationnelle MySQL",
+                                "Implémentation des opérations CRUD pour la gestion des données",
+                                "Connexion de l'interface JavaFX avec la base de données",
+                                "Gestion structurée des données de l'application"
+                            ],
+                            "tags": [
+                                "Java",
+                                "JavaFX",
+                                "MySQL",
+                                "Application Desktop",
+                                "CRUD",
+                                "Base de données"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/project-logo-rezileo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://rezileo.fr",
+                                "faIcon": "fa-solid fa-globe",
+                                "tooltipString": "open_website"
+                            }
+                        ],
+                        "screenshots": []
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Rezileo",
+                            "text": "A professional [[contract cancellation management platform]] (insurance, telecom, energy and subscriptions), developed and deployed in collaboration with the founder to serve his clients in France.",
+                            "list": [
+                                "Full-stack development: public showcase, internal console, API and async worker",
+                                "Cloud migration from Replit to Scaleway with PostgreSQL, Redis, Docker, Nginx and SSL/HTTPS",
+                                "Multi-tenant architecture with PostgreSQL Row-Level Security (RLS) and audit logs",
+                                "Domain and DNS configuration via GoDaddy for rezileo.fr and app.rezileo.fr",
+                                "Ongoing development and preparation for integrations with Stripe, YouSign, Twilio, Brevo and AR24/Maileva",
+                                "Used generative AI tools to support development, debugging and code improvement"
+                            ],
+                            "tags": [
+                                "TypeScript",
+                                "Next.js",
+                                "Hono",
+                                "PostgreSQL",
+                                "Redis",
+                                "Docker",
+                                "Nginx",
+                                "Scaleway",
+                                "AI"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Rezileo",
+                            "text": "Une [[plateforme professionnelle de gestion des résiliations de contrats]] (assurance, télécom, énergie et abonnements), développée et déployée en collaboration avec le fondateur pour servir ses clients en France.",
+                            "list": [
+                                "Développement full-stack : vitrine publique, console interne, API et worker asynchrone",
+                                "Migration cloud Replit vers Scaleway avec PostgreSQL, Redis, Docker, Nginx et SSL/HTTPS",
+                                "Architecture multi-tenant avec PostgreSQL Row-Level Security (RLS) et journaux d'audit",
+                                "Configuration du domaine et DNS via GoDaddy pour rezileo.fr et app.rezileo.fr",
+                                "Développement continu et préparation des intégrations Stripe, YouSign, Twilio, Brevo et AR24/Maileva",
+                                "Utilisation d'outils d'IA générative comme support au développement et au débogage"
+                            ],
+                            "tags": [
+                                "TypeScript",
+                                "Next.js",
+                                "Hono",
+                                "PostgreSQL",
+                                "Redis",
+                                "Docker",
+                                "Nginx",
+                                "Scaleway",
+                                "IA"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

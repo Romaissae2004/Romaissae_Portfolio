@@ -1,0 +1,179 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Merzak Romaissae!}}"
+            },
+            "fr": {
+                "title_short": "Bienvenue !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Bonjour...",
+                "title_long": "Je suis {{Merzak Romaissae !}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Oujda – Morocco",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "romaissae.merzak.23@ump.ac.ma",
+                    "link": {"href": "https://mail.google.com/mail/?view=cm&fs=1&to=romaissae.merzak.23@ump.ac.ma", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Romaissae2004",
+                    "link": {"href": "https://github.com/Romaissae2004", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "Mon CV (PDF)",
+                    "locales": {
+                        "en": {"label": "My Resume "},
+                        "fr": {"label": "Mon CV "}
+                    },
+                    "link": {"href": "pdf/cv.pdf", "tooltipString": "download_resume"},
+                    "faIcon": "fa-solid fa-file-pdf"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/photo-{theme}.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a {{Software Engineering}} student specializing in {{Artificial Intelligence}}, [[passionate]] about building modern, real-world software solutions.</p><p>I have hands-on experience developing full-stack applications using {{React}}, {{Spring Boot}}, Java, and relational databases, with a focus on clean architecture, backend logic, and scalable design.</p><p>I'm currently looking for a {{PFE internship}} where I can [[apply my skills]], grow as a software engineer, and contribute to meaningful {{technical challenges}} within a dynamic team.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis étudiante en {{Génie Informatique}}, spécialisée en {{Génie Logiciel et Intelligence Artificielle}}, et [[passionnée]] par la conception de solutions logicielles modernes et concrètes.</p><p>J'ai une expérience pratique dans le développement d'applications full-stack avec {{React}}, {{Spring Boot}}, Java et les bases de données relationnelles, avec un intérêt particulier pour l'architecture logicielle, la logique backend et la conception d'applications évolutives.</p><p>Je suis actuellement à la recherche d'un {{stage PFE}} afin de [[mettre en pratique mes compétences]], progresser en tant qu'ingénieure logicielle et contribuer à des {{projets techniques}} au sein d'une équipe dynamique.</p>"                        }
+                    }
+                }
+            ]
+        },
+
+
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "fr": {"title": "Intérêts {{personnels}} "}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Web}} Development",
+                            "text": "Building modern and responsive web applications."
+                        },
+                        "fr": {
+                            "title": "Développement {{Web}}",
+                            "text": "Concevoir des applications web modernes et responsives."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Artificial Intelligence",
+                            "text": "Exploring AI concepts and intelligent applications."
+                        },
+                        "fr": {
+                            "title": "{{Intelligence}} Artificielle",
+                            "text": "Explorer les concepts de l'IA et les applications intelligentes."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gears",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Software}} Engineering",
+                            "text": "Learning software architecture, clean code and scalable applications."
+                        },
+                        "fr": {
+                            "title": "{{Génie}} Logiciel",
+                            "text": "Approfondir l'architecture logicielle, le clean code et les applications évolutives."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-lightbulb",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Problem}} Solving",
+                            "text": "Enjoying technical challenges and finding effective solutions."
+                        },
+                        "fr": {
+                            "title": "{{Résolution}} de problèmes",
+                            "text": "Aimer relever des défis techniques et trouver des solutions efficaces."
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
